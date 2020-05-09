@@ -46,5 +46,12 @@ namespace Swith_case
 
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 novo = new Form2();
+            novo.Show();
+            this.Visible = false;
+        }
     }
 }
